@@ -4,9 +4,20 @@
   border: 10px solid black;
   border-radius: 100%;
   position: absolute;
-  top: 81px;
+  top: 66px;
   left: 10px;
-  transition: left 10s ease-out;
+  transition-property: left top;
+  transition-duration: 10s;
+  transform-style: ease-out;
+}
+
+#slide-input{
+  z-index: 1;
+    position: absolute;
+    left: 100px;
+    top: 69px;
+    opacity: 0;
+
 }
 
 .court-outer {
@@ -56,4 +67,9 @@
 
 .right-circle{
   right: 0;
+}
+
+.reset {
+  position: absolute;
+  top: 200px;
 }
