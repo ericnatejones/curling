@@ -6,7 +6,7 @@
   position: absolute;
   top: 81px;
   left: 10px;
-  /*transition: left 10s ease-out;*/
+  transition: left 10s ease-out;
 }
 
 .court-outer {

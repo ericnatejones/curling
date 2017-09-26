@@ -21,25 +21,14 @@ setInterval(()=>{
     sliderValue = 99;
     document.getElementById("slide-input").value = "99";
 
-    speed = currentSpeed/3;
+    speed = currentSpeed;
 
     console.log(speed);
     slid = true;
+    puck.style.left = (speed * 10 + 100) + "px";
 
   }
-  if (puckPosition > 1000){
-    puckPosition = 100;
-  }
 
 
-  puckPosition = (puckPosition + speed) + 'px';
-  puck.style.left = puckPosition;
-
-  if (speed > 0){
-    speed = speed * .995;
-  } else {
-    speed = 0;
-    slid = false;
-  }
 
 }, 1)
