@@ -1,8 +1,59 @@
 #puck {
-  height: 30px;
-  width: 30px;
-  border: 10px solid blue;
+  height: 7px;
+  width: 7px;
+  border: 10px solid black;
   border-radius: 100%;
   position: absolute;
+  top: 81px;
   left: 10px;
+  /*transition: left 10s ease-out;*/
+}
+
+.court-outer {
+  border: 1px solid black;
+  height: 140px;
+  width: 1460px;
+  position: absolute;
+}
+
+.court-inner {
+  background-color: lightblue;
+  height: 100%;
+  left: 100px;
+  width: 270px;
+  position: absolute;
+}
+
+.right-court-inner {
+  left: 1090px;
+}
+
+.center-line {
+  left: 720px;
+  position: absolute;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  border: 20px solid blue;
+  border-radius: 100%;
+  position: absolute;
+  background-color: white;
+}
+
+.inner-circle {
+  height: 27px;
+  width: 27px;
+  border: 16px solid red;
+  border-radius: 100%;
+  position: absolute;
+  left: 19px;
+  top: 19px;
+}
+
+.right-circle{
+  right: 0;
 }
