@@ -4,6 +4,8 @@ let currentSpeed = sliderValue - prevSliderValue;
 let puck = document.getElementById("puck");
 let speed = currentSpeed;
 puck.style.left = "100px";
+
+// This variable is declared but never used
 let checkSliderValue = true;
 let slid = false;
 let mouse = {x: 0,y: 0}
